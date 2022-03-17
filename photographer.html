@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Normalize -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <!-- Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/30340057e5.js" crossorigin="anonymous"></script>
+    <!-- Title -->
+    <title>Fisheye - photographe </title>
+  </head>
+  <body>
+    <header role="banner">
+      <a href="./index.html" tabindex="1">
+        <img src="./assets/favicon.ico" class="logo" alt="Fisheye Home page" />
+      </a>
+    </header>
+    <main id="main" class="main">
+      <section class="photograph_header_section" role="region" aria-label="photographer info">
+  
+      </section>
+  
+      <!-- Button popularity/date/title  -->
+      <div class="select-dropdown" role="listbox">
+      </div>
+  
+      <!-- Catalog images  -->
+      <section class="photograph-catalog-cards" role="region" aria-label="catalog medias">
+      </section>
+  
+      <!-- Likes and price  -->
+      <footer class="likes-footer" role="contentinfo">
+      </footer>
+    </main>
+  
+    <!-- Carousel  -->
+    <section class="lightbox_modal" aria-hidden="true" role="dialog" aria-modal="true">
+    </section>
+  
+    <!-- Form -->
+    <section id="contact_modal" aria-hidden="true" role="dialog" aria-modal="true">
+    </section>
+  
+    <!-- Factories  -->
+    <script src="./scripts/factories/photographerPage.js"></script>
+    <script src="./scripts/factories/sortimages.js"></script>
+    <script src="./scripts/factories/medias.js"></script>
+    <script src="./scripts/factories/totallikes.js"></script>
+    <script src="./scripts/factories/lightbox.js"></script>
+    <script src="./scripts/factories/contactform.js"></script>
+  
+    <!-- Pages  -->
+    <script src="./scripts/pages/photographer.js"></script>
+  
+    <!-- App -->
+    <script type="module" src="./scripts/app.js"></script>
+  
+    <!-- Tools  -->
+    <script src="./scripts/utils/likesclicked.js"></script>
+    <script src="./scripts/utils/lightbox.js"></script>
+    <script src="./scripts/utils/contactForm.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "name": "antoonreynaert_6_17032022",
+    "version": "1.0.0",
+    "description": "FishEye",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": ""
+    }
+}
